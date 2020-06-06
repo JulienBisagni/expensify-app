@@ -17,6 +17,4 @@ const mapStateToProps = (state) => ({
   expenses: getVisibleExpenses(state.expenses, state.filters),
 });
 
-const mapDispatchToProps = {};
-
 export default connect(mapStateToProps)(Expenses);
